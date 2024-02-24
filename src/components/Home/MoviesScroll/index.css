@@ -1,0 +1,27 @@
+.slider-container {
+  margin: 0px 42px 0px 42px;
+}
+
+.slide-image {
+  padding: 8%;
+  height: 100%;
+  border-radius: 16px;
+  width: 100%;
+
+  @media screen and (min-width: 576px) {
+    border-radius: 36px;
+  }
+}
+
+.slide-image-container {
+  width: 100px;
+  height: 30vh;
+
+  @media screen and (min-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+}

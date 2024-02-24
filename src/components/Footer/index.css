@@ -1,0 +1,30 @@
+.footer-container {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+.media-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+
+  @media screen and (min-width: 576px) {
+    width: 50%%;
+  }
+}
+
+.media-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  color: #ffffff;
+  padding: 4%;
+  width: 20%;
+}
